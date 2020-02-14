@@ -57,5 +57,4 @@ body {
 #pozadina{
   margin-top: 0%;
 }
-
 </style>

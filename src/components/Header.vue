@@ -22,6 +22,7 @@ export default {
         background-color: rgba(169, 169, 169, 0.4);
         display: fixed;
         align-content: center;
+        border-radius: 25px;
     }
 
     #prvi {
