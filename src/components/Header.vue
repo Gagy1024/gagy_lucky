@@ -20,7 +20,7 @@ export default {
         margin: 0;
         box-sizing: border-box;
         background-color: rgba(169, 169, 169, 0.4);
-        display: absolute;
+        display: fixed;
         align-content: center;
     }
 
