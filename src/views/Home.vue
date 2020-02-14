@@ -1,10 +1,13 @@
 <template>
   <div class="home">
     
-    <Header />
-    <button id="pokreni">Pokreni igru</button>
     
+    <div id="dugme">
+      <Header />
+    <button id="pokreni">Pokreni igru</button>
+    </div>
 
+    <div id="pozadina">
     <vue-particles color="#dedede" :particleOpacity="0.7"
         :particlesNumber="80"
         shapeType="circle"
@@ -19,6 +22,7 @@
         hoverMode="grab"
         :clickEffect="true"
         clickMode="push"></vue-particles>
+    </div>
     </div>
 </template>
 
@@ -39,6 +43,19 @@ body {
 	font-family: Impact;
   background-image: url('../assets/background.jpg');
   background-size: 100%;
+}
+
+#dugme{
+  position: absolute;
+  width: 99%;
+  height: 99%;
+}
+
+#pokreni{
+  margin-top:15%;
+}
+#pozadina{
+  margin-top: 0%;
 }
 
 </style>

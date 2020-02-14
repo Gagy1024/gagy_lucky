@@ -20,7 +20,7 @@ export default {
         margin: 0;
         box-sizing: border-box;
         background-color: rgba(169, 169, 169, 0.4);
-        display: fixed;
+        display: absolute;
         align-content: center;
     }
 
@@ -58,12 +58,12 @@ export default {
         height: 100%;
         margin-left: -50%;
         margin-top: 0%;
-        display: fixed;
+        display: absolute;
     }
     
     #dugmici{
         margin-left:10%;
         margin-top:-3%;
-        display: fixed;
+        display: absolute;
     }
 </style>
