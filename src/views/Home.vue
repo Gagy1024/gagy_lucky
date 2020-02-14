@@ -4,7 +4,7 @@
     
     <div id="dugme">
       <Header />
-    <button id="pokreni">Pokreni igru</button>
+    <router-link id="router" to="/Game"><button id="pokreni">Pokreni igru</button></router-link>
     </div>
 
     <div id="pozadina">
