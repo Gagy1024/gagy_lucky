@@ -42,6 +42,7 @@ export default {
 body {
 	font-family: Impact;
   background-image: url('../assets/background.jpg');
+  background-repeat: no-repeat;
   background-size: 100%;
 }
 
