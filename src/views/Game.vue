@@ -1,12 +1,16 @@
 <template>
 <div id="game">
-    <h1>Nesto</h1>
+    <Brojcanik />
 </div>
 </template>
 
 <script>
+import Brojcanik from './../components/Brojcanik.vue';
 export default {
-  name: 'Game'
+  name: 'Game',
+  components:{
+    Brojcanik,
+  }
   }
 </script>
 
