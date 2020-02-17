@@ -58,4 +58,47 @@ body {
 #pozadina{
   margin-top: 0%;
 }
+
+#glavnibroj{
+  font-size: 140px;
+	text-decoration-color: black;
+  font-style: bold;
+	display: inline-block;
+	align-content: center;
+	background-image: url('../assets/glavnaloptica.png');
+	animation: grow 5s ease infinite;
+  width: 300px; height: 300px;
+}
+
+#ispis{
+    margin-top: 23%;
+}
+
+#loptica{
+  height: 150px;
+  width: 150px;
+  background-image: url('../assets/pomocna.png');
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 50px;
+  font-style: bold;
+  align-content: center;
+  vertical-align: bottom;
+  animation: grow 1.3s infinite ease-in-out alternate;
+}
+
+#pomocnibroj{
+    align:center;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 </style>
