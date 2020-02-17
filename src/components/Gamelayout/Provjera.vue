@@ -38,6 +38,7 @@ export default {
     methods:{
         rezultat: function(){
             this.ispkomb=this.komb[0];
+            this.ispkomb.sort(function(a, b){return a - b});
             for(let i=0;i<this.korisnik.length;i++){
                 for(let j=0;j<this.korisnik[i].kombinacija.length;j++){
                     if(this.ispkomb.includes(this.korisnik[i].kombinacija[j])){

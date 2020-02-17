@@ -23,6 +23,7 @@ export default {
                                   }else{
                 --i;}
           }
+        this.komb.sort(function(a, b){return a - b});
         var newKomb={
             idtiketa: this.tiket,
             kombinacija: this.komb,
