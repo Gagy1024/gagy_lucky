@@ -43,6 +43,8 @@ body {
 	font-family: Impact;
   background-image: url('../assets/background.jpg');
   background-size: 100%;
+  width:98%;
+  height:100%;
 }
 
 #dugme{
