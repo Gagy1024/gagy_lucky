@@ -37,8 +37,6 @@ export default {
         background-color: #3D173E;
         text-align: center;
         font-size: 150px;
-        margin-left: 42%;
-        margin-top: 15%;
 }
 
 #broj{

@@ -62,6 +62,16 @@ export default {
 
 <style scoped>
 #game{
-    align:center;
+    align-content: center;
+}
+
+#brojcanik{
+  align-content: center;
+  margin-top: 2%;
+  display: inline-block;
+}
+
+#dodaj{
+  align-content: center;
 }
 </style>
