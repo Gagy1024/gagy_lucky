@@ -34,6 +34,7 @@ export default {
         font-weight: bold;
         font-size: 3vh;
         height: 100%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     #prvi:hover {
@@ -49,6 +50,7 @@ export default {
         font-weight: bold;
         font-size: 3vh;
         height: 100%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     #drugi:hover {

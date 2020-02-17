@@ -42,7 +42,6 @@ export default {
 body {
 	font-family: Impact;
   background-image: url('../assets/background.jpg');
-  background-repeat: no-repeat;
   background-size: 100%;
 }
 
@@ -53,8 +52,26 @@ body {
 }
 
 #pokreni{
-  margin-top:15%;
+  margin-top:18%;
+  background-color: white; 
+  color: black; 
+  border: 4px solid #7E0404;
+  border-radius: 3vh;
+  padding: 30px 60px;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
 }
+
+#pokreni:hover {
+  background-color: #7E0404;
+  color: white;
+}
+
 #pozadina{
   margin-top: 0%;
 }

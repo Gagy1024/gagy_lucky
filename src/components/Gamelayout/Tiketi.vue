@@ -86,28 +86,24 @@ export default {
 </script>
 
 <style scoped>
-#kreiraj{
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
+#generisi{
+  margin-top:5%;
+  background-color: white; 
+  color: black; 
+  border: 4px solid  #3D173E;
+  border-radius: 3vh;
+  padding: 30px 60px;
   text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: black;
-  background-color: orange;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+  display: inline-block;
+  font-size: 25px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
 }
 
-#kreiraj:hover {background-color: #FF7D03}
-
-#kreiraj:active {
-  background-color: #FF7D03;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+#generisi:hover {
+  background-color:  #3D173E;
+  color: white;
 }
-
-
 </style>
